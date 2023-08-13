@@ -1,5 +1,7 @@
 select 
 --from orders
+o.customerid,
+o.productid,
 o.orderid,
 o.orderdate,
 o.shipdate,
